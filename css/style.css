@@ -1,0 +1,198 @@
+body {
+    font-family: "Montserrat";
+}
+
+
+h1 {
+    /* font-family: "Montserrat-Black"; */
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* responsive css */
+@media only screen and (max-width: 991px) {
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .img-area img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar nav {
+        text-align: center;
+    }
+
+    .crousel-caption {
+        bottom: 125px;
+    }
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+}
+
+.icon {
+    color: dimgray;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: cadetblue;
+}
+
+#testimonials {
+    padding-bottom: 100px;
+    text-align: center;
+    background-color:dimgray;
+   
+}
+.section-heading{
+    font-size: 35px;
+      text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: capitalize;
+    color: #212529;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 5%;
+    background-color: gray;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#testimonials {
+    text-align: center;
+    color:black;
+}
+#testimonials {
+    padding: 3% 15%;
+    text-align: center;
+    background-color: grey;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    height: 100vh;
+    min-height: 300px;
+}
+
+#carouselExampleDark {
+    text-align: center;
+    color: dimgray;
+}
+
+.about-text {
+    padding-top: 50px;
+}
+.carousel-inner{
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.10);
+}
+
+.team .card-body i {
+    font-size: 20px;
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+#about-us .container {
+    text-align: center;
+}
+
+#protfolio .card {
+    transform: 0.3s ease;
+}
+
+#protfolio .card:hover {
+    transform: translateY(5px);
+}
+testimonial{
+    width: 100%;
+    height: 100vh;
+    color: dark
+}
+.carousel-item-2{
+    min-height: 500px;
+    position: relative;
+}
+
+#testimonials-2{
+    width: 100%;
+    height: 100vh;
+  background-color: #121212;
+    position: relative;
+    padding-bottom: 100vh;
+     font-family: 'Oswald' sans-serif;
+}
+.section-heading{
+    
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: capitalize;
+    color:  #212529;
+}
+
+
+.form-control:focus{
+    width: 90;
+}
+
+
+
+
+
